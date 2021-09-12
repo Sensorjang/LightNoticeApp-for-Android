@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ActionBarTheme1" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:colorPrimary">#ff2196f3</item>
+        <item name="android:background">#ff2196f3</item>
+        <item name="android:titleTextColor">#ffffffff</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:colorBackground">#ffffffff</item>
+        <item name="android:popupBackground">#ffffffff</item>
+    </style>
+</resources>

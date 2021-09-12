@@ -1,0 +1,106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dingyi.codenote"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml
+10
+11    <!-- 读取您的SD卡中的内容 -->
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:7:5-79
+12-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:7:22-77
+13
+14    <!-- 修改或删除您的SD卡中的内容 -->
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:12:5-80
+15-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:12:22-78
+16
+17    <application
+17-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:14:5-64:19
+18        android:name="com.dingyi.codenote.MyApplication"
+18-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:21:9-38
+19        android:allowBackup="true"
+19-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:15:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.4.0-alpha01] C:\Users\51531\.gradle\caches\transforms-2\files-2.1\faf603fe3248df85274d17d0665dfe66\core-1.4.0-alpha01\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:16:9-43
+23        android:label="@string/app_name"
+23-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:18:9-41
+24        android:resizeableActivity="false"
+24-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:22:9-43
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:17:9-54
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme1"
+27-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:20:9-41
+28        android:usesCleartextTraffic="true" >
+28-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:19:9-44
+29        <activity
+29-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:24:9-36:20
+30            android:name="com.dingyi.codenote.activity.MainActivity"
+30-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:25:13-50
+31            android:label="@string/app_name" >
+31-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:26:13-45
+32            <intent-filter>
+32-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:28:13-34:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:30:17-68
+33-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:30:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:32:17-76
+35-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:32:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:38:9-39:48
+39            android:name="com.dingyi.codenote.activity.EditActivity"
+39-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:38:19-56
+40            android:label="@string/app_name" />
+40-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:39:13-45
+41        <activity
+41-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:41:9-42:48
+42            android:name="com.dingyi.codenote.activity.SettingsActivity"
+42-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:41:19-60
+43            android:label="@string/app_name" />
+43-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:42:14-46
+44
+45        <provider
+46            android:name="androidx.core.content.FileProvider"
+46-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:45:13-62
+47            android:authorities="com.dingyi.codenote.provider"
+47-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:46:13-60
+48            android:exported="false"
+48-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:47:13-37
+49            android:grantUriPermissions="true" >
+49-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:48:13-47
+50            <meta-data
+50-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:49:13-52:19
+51                android:name="android.support.FILE_PROVIDER_PATHS"
+51-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:50:17-67
+52                android:resource="@xml/file_provider" />
+52-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:51:17-54
+53        </provider>
+54
+55        <meta-data
+55-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:56:9-58:34
+56            android:name="android.max_aspect"
+56-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:57:13-46
+57            android:value="4.0" />
+57-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:58:13-32
+58        <meta-data
+58-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:60:9-62:45
+59            android:name="com.dingyi.codenote.module.MyAppGlideModule"
+59-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:61:13-71
+60            android:value="AppGlideModule" />
+60-->D:\Android projects\light-notice-master\app\src\main\AndroidManifest.xml:62:13-43
+61    </application>
+62
+63</manifest>

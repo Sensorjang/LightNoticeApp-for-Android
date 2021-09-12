@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.PreferenceCategory android:title="常用">
+    <androidx.preference.CheckBoxPreference
+        android:title="图片另保存"
+        android:summary="添加的图片另外保存"
+        android:key="imgset"
+        android:defaultValue="false"
+        />
+
+
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory android:title="编辑器">
+        <androidx.preference.SeekBarPreference
+            android:defaultValue="20"
+            android:key="editor_size"
+            android:max="50"
+            android:summary="调整编辑器字体大小"
+            android:title="编辑器字体大小"
+            app:min="10"
+            app:showSeekBarValue="true" />
+
+
+
+
+    </androidx.preference.PreferenceCategory>
+   <androidx.preference.PreferenceCategory android:title="关于">
+       <Preference
+           android:summary="软件工程1902祁盼安卓课设   515310624@qq.com"
+           android:title="关于" />
+   </androidx.preference.PreferenceCategory>
+
+</PreferenceScreen>

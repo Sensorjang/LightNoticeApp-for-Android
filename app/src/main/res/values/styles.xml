@@ -1,0 +1,229 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme1" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme1</item>
+        <item name="android:colorPrimary">@color/AppTheme1colorPrimary</item>
+        <item name="android:colorAccent">@color/AppTheme1colorPrimary</item>
+        <item name="colorPrimary">@color/AppTheme1colorPrimary</item>
+        <item name="colorAccent">@color/AppTheme1colorPrimary</item>
+        <item name="android:actionModeBackground">@color/AppTheme1colorPrimary</item>
+        <item name="materialAlertDialogTheme">@style/DialogTheme1</item>
+        <item name="android:colorPrimaryDark">#ff0096ff</item>
+        <item name="android:toolbarStyle">@style/ActionBarTheme1</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:statusBarColor">@color/AppTheme1colorPrimary</item>
+        <item name="android:textColorPrimary">#FF000000</item>
+        <item name="android:navigationBarColor">@color/AppTheme1colorPrimary</item>
+    </style>
+
+
+    <style name="ActionBarTheme1" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="colorPrimary">@color/AppTheme1colorPrimary</item>
+        <item name="colorAccent">@color/AppTheme1colorPrimary</item>
+        <item name="colorControlNormal">#ffffffff</item>
+        <item name="android:actionModeBackground">@color/AppTheme1colorPrimary</item>
+        <item name="android:popupBackground">#ffffffff</item>
+        <item name="android:colorBackground">#ffffffff</item>
+    </style>
+
+    <declare-styleable name="MyRichTextEditor">
+        <attr name="editText_Background" format="color|reference"/>
+        <attr name="editText_Color" format="color"/>
+        <attr name="editText_Font" format="string"/>
+        <attr name="editText_Style" format="reference|string"/>
+        <attr name="editText_Size" format="dimension|integer"/>
+    </declare-styleable>
+
+
+
+
+
+    <style name="DialogTheme1" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:colorAccent">@color/AppTheme1colorPrimary</item>
+
+
+    </style>
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme2</item>
+        <item name="android:colorPrimary">#ffc65146</item>
+        <item name="android:colorAccent">#ff84b1ed</item>
+        <item name="android:statusBarColor">#ffc65146</item>
+        <item name="android:navigationBarColor">#ffc65146</item>
+    </style>
+    <style name="DialogTheme2" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#ff84b1ed</item>
+    </style>
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme3</item>
+        <item name="android:colorPrimary">#ff60c5ba</item>
+        <item name="android:colorAccent">#ffcba6c3</item>
+        <item name="android:statusBarColor">#ff60c5ba</item>
+        <item name="android:navigationBarColor">#ff60c5ba</item>
+    </style>
+    <style name="DialogTheme3" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#ffcba6c3</item>
+    </style>
+    <style name="AppTheme4" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme4</item>
+        <item name="android:colorPrimary">#ffffc952</item>
+        <item name="android:colorAccent">#ff79bd9a</item>
+        <item name="android:statusBarColor">#ffffc952</item>
+        <item name="android:navigationBarColor">#ffffc952</item>
+    </style>
+    <style name="DialogTheme4" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#ff79bd9a</item>
+    </style>
+    <style name="AppTheme5" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme5</item>
+        <item name="android:colorPrimary">#ffe94e77</item>
+        <item name="android:colorAccent">#ff5cab7d</item>
+        <item name="android:statusBarColor">#ffe94e77</item>
+        <item name="android:navigationBarColor">#ffe94e77</item>
+    </style>
+    <style name="DialogTheme5" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#ff5cab7d</item>
+    </style>
+    <style name="AppTheme6" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme6</item>
+        <item name="android:colorPrimary">#ff6a60a9</item>
+        <item name="android:colorAccent">#fffc913a</item>
+        <item name="android:statusBarColor">#ff6a60a9</item>
+        <item name="android:navigationBarColor">#ff6a60a9</item>
+    </style>
+    <style name="DialogTheme6" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#fffc913a</item>
+    </style>
+    <style name="AppTheme7" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme7</item>
+        <item name="android:colorPrimary">#ffa593e0</item>
+        <item name="android:colorAccent">#ff5cab7d</item>
+        <item name="android:statusBarColor">#ffa593e0</item>
+        <item name="android:navigationBarColor">#ffa593e0</item>
+    </style>
+    <style name="DialogTheme7" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#ff5cab7d</item>
+    </style>
+    <style name="AppTheme8" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme8</item>
+        <item name="android:colorPrimary">#ff6285c7</item>
+        <item name="android:colorAccent">#ffee7785</item>
+        <item name="android:statusBarColor">#ff6285c7</item>
+        <item name="android:navigationBarColor">#ff6285c7</item>
+    </style>
+    <style name="DialogTheme8" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#ffee7785</item>
+    </style>
+    <style name="AppTheme9" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme9</item>
+        <item name="android:colorPrimary">#ff4caf50</item>
+        <item name="android:colorAccent">#ff4caf50</item>
+        <item name="android:statusBarColor">#ff4caf50</item>
+        <item name="android:navigationBarColor">#ff4caf50</item>
+    </style>
+    <style name="DialogTheme9" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#ff4caf50</item>
+    </style>
+    <style name="AppTheme10" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme10</item>
+        <item name="android:colorPrimary">#ff1e8ae8</item>
+        <item name="android:colorAccent">#ff1e8ae8</item>
+        <item name="android:statusBarColor">#ff1e8ae8</item>
+        <item name="android:navigationBarColor">#ff1e8ae8</item>
+    </style>
+    <style name="DialogTheme10" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#ff1e8ae8</item>
+    </style>
+    <style name="AppTheme11" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme11</item>
+        <item name="android:colorPrimary">#fffb7299</item>
+        <item name="android:colorAccent">#fffb7299</item>
+        <item name="android:statusBarColor">#fffb7299</item>
+        <item name="android:navigationBarColor">#fffb7299</item>
+    </style>
+    <style name="DialogTheme11" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#fffb7299</item>
+    </style>
+    <style name="AppTheme12" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme12</item>
+        <item name="android:colorPrimary">#ffce3d3e</item>
+        <item name="android:colorAccent">#ffce3d3e</item>
+        <item name="android:statusBarColor">#ffce3d3e</item>
+        <item name="android:navigationBarColor">#ffce3d3e</item>
+    </style>
+    <style name="DialogTheme12" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#ffce3d3e</item>
+    </style>
+    <style name="AppTheme13" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme13</item>
+        <item name="android:colorPrimary">#ff616161</item>
+        <item name="android:colorAccent">#ff616161</item>
+        <item name="android:statusBarColor">#ff616161</item>
+        <item name="android:navigationBarColor">#ff616161</item>
+    </style>
+    <style name="DialogTheme13" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#ff616161</item>
+    </style>
+    <style name="DialogTheme15" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#ff00b1ed</item>
+    </style>
+    <style name="AppTheme15" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme15</item>
+        <item name="android:colorPrimary">#ff00b1ed</item>
+        <item name="android:colorAccent">#ff00b1ed</item>
+        <item name="android:statusBarColor">#ff00b1ed</item>
+        <item name="android:navigationBarColor">#ff00b1ed</item>
+    </style>
+    <style name="DialogTheme14" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#ffe91e63</item>
+    </style>
+    <style name="AppTheme14" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme14</item>
+        <item name="android:colorPrimary">#ff3f51b5</item>
+        <item name="android:colorAccent">#ffe91e63</item>
+        <item name="android:statusBarColor">#ff3f51b5</item>
+        <item name="android:navigationBarColor">#ff3f51b5</item>
+    </style>
+    <style name="DialogTheme16" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#ffff4180</item>
+    </style>
+    <style name="AppTheme16" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme16</item>
+        <item name="android:colorPrimary">#ff4286f5</item>
+        <item name="android:colorAccent">#ffff4180</item>
+        <item name="android:statusBarColor">#ff3873d2</item>
+        <item name="android:navigationBarColor">#ff4286f5</item>
+    </style>
+    <style name="DialogTheme17" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#ff212121</item>
+    </style>
+    <style name="AppTheme17" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme16</item>
+        <item name="android:colorPrimary">#ff212121</item>
+        <item name="android:colorAccent">#ff000000</item>
+        <item name="android:statusBarColor">#ff212121</item>
+        <item name="android:navigationBarColor">#ff212121</item>
+    </style>
+
+
+    <style name="DialogThemeActivity" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">#ffe91e63</item>
+    </style>
+    <style name="AppThemeActivity" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:alertDialogTheme">@style/DialogTheme14</item>
+        <item name="android:colorPrimary">#ff3f51b5</item>
+        <item name="android:colorAccent">#ffe91e63</item>
+        <item name="android:statusBarColor">#ff3f51b5</item>
+        <item name="android:navigationBarColor">#ff3f51b5</item>
+    </style>
+
+</resources>

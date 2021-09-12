@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_theme_title">
+        <item>默认</item>
+        <item>粉色</item>
+    </string-array>
+    <string-array name="settings_theme_value">
+        <item>AppTheme1</item>
+        <item>AppTheme2</item>
+    </string-array>
+</resources>
