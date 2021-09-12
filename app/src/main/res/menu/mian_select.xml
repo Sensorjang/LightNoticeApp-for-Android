@@ -3,13 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/main_select"
-        android:icon="@drawable/ic_action_select_all"
+        android:icon="@drawable/ic_action_select_all_1"
         android:visible="true"
         app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/main_delete"
-        android:icon="@drawable/ic_action_delete"
+        android:icon="@drawable/ic_action_delete_1"
         android:visible="true"
         app:showAsAction="ifRoom" />
 </menu>

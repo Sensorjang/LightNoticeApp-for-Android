@@ -1,0 +1,4 @@
+#Sun Sep 12 17:25:58 CST 2021
+base.0=D\:\\Android projects\\light-notice-master\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
